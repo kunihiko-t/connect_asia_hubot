@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-  robot.hear /ぬるぽ/, (msg) ->
+  robot.hear /(ぬるぽ|まきやんか|マキヤンカ)/, (msg) ->
     msg.send '''
 
      Λ＿Λ    ＼＼
